@@ -1,7 +1,6 @@
-import React from 'react'
+
 import logo from '../Images/logo.svg'
-import iconClose from '../Images/icon-close.svg' 
-import iconHamburger from '../Images/icon-hamburger.svg'
+
 
 const Header = () => {
   const showNav = () => {
@@ -42,7 +41,6 @@ const Header = () => {
                       
 
           <div className='menu-btn' onClick={() => showNav()}>
-            {/*<img src={iconHamburger} alt='LoopStudios Logo'/>*/}
             <div className='bar bar-1'></div>
             <div className='bar bar-2'></div>
             <div className='bar bar-3'></div>
