@@ -2,7 +2,7 @@ import { useState } from 'react'
 import data from '../data-desktop'
 
 const CreationsDesktop = () => {
-    const [cards, setCards] = useState(data);
+    const [cards] = useState(data);
     return (
         <section className='creations-desktop'>
 

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import data from '../data-mobile'
 
 const Creations = () => {
-    const [cards, setCards] = useState(data);
+    const [cards] = useState(data);
   return (
     <section className='creations-mobile'>
        <h2>Our Creations</h2>
